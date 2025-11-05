@@ -1,0 +1,63 @@
+# ===============================================
+# Standard Python
+# ===============================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# =A ==============================================
+# YOLOv5 & Machine Learning
+# ===============================================
+# Model weights - DO NOT PUSH MODELS
+*.pt
+*.pth
+*.onnx
+
+# Training runs - This is the most important one!
+# This folder contains all logs, weights, and results.
+runs/
+
+# Datasets - DO NOT PUSH YOUR DATA
+# Adjust these names to match your dataset folders
+data/
+datasets/
+images/
+labels/
+data_thermal/
+data_waterfowl/
+00_UAV-derived Thermal Waterfowl Dataset/
+01_RGB Images/
+02_Test Orhomosaic/ 
+02_Test Orhomosaic/ 
+
+
+# WandB (Weights & Biases) logs
+wandb/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ===============================================
+# Operating System Files
+# ===============================================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
