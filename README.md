@@ -2,9 +2,6 @@
 
 This project uses YOLOv5 to detect waterfowl (ducks, geese, etc.) in aerial imagery. The model is designed to work with both standard **RGB (visual)** and **thermal** images captured by UAVs (drones).
 
-![YOLOv5 Demo](httpss://user-images.githubusercontent.com/31566456/230910103-6113b671-b1e6-42d4-b7c1-7427c32087e5.gif)
-*(This is a placeholder GIF. You can replace it with a screenshot of your own detection results!)*
-
 ---
 
 ### 🦢 Detected Classes
