@@ -8,7 +8,7 @@ This project uses YOLOv5 to detect waterfowl (ducks, geese, etc.) in aerial imag
 
 This model is trained to identify the following classes:
 * `waterfowl`
-* *(Update this list based on your dataset's `.yaml` file!)*
+* *waterfowl.yaml*
 
 ---
 
